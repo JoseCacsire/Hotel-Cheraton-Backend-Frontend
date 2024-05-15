@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ 
+.fondo-footer{
+    background:rgb(253, 248, 216);
+    padding:20px 0px;
+}
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+footer{
+    width: 300px;
+    color:rgb(37, 19, 19);
+    margin-bottom: 10px;
+}
+.direcciones li{
+    line-height: 30px;
+}
+ 
+.fondo-cierre{
+    background: rgb(35, 28, 77);
+    padding:20px 0px;
+}
+.cierre{
+    width: 80%;
+    margin: auto;
+}
+.cierre p{
+    color: white;
+}
+ 
+/* Portfolio exported Ioi arbwaoth*/
+ 
+.footer-over {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #251313;
+    color: #ffffff;
+}
+ 
+ 
+@media only screen and (max-width:980px){
+    .footer{
+        width: 90%;
+    }
+}
+ 
+@media only screen and (max-width:480px){
+    .footer{
+        width: 98%;
+    }
+    footer{
+        text-align: center;
+    }
+    .direcciones li{
+        list-style:none;
+    }
+}

@@ -1,0 +1,125 @@
+.text-center {
+    text-align: center;
+}
+ 
+@media (max-width: 768px) {
+    h4.text-white {
+        font-size: 3.0rem;
+    }
+ 
+    p.text-white {
+        font-size: 0.9rem;
+    }
+}
+ 
+.portadaus{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image:
+    url('../css/cheraton1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+ 
+  .logous {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+ 
+.container-lorehotel01 {
+    background-color: #ffb82025;
+    padding: 50px 0;
+}
+ 
+.container-lorehotel02 {
+    background-color: #ffb82025;
+    padding: 50px 0;
+}
+ 
+.container-lorehotel02 .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.container-lorehotel02 .text-center {
+    right: center;
+}
+ 
+.container-lorehotel02 .img-container iframe {
+    border-radius: 50px;
+    margin-left: 20px;
+}
+ 
+.img-container iframe {
+    /*border: 10px solid white; */
+    border-radius: 50px;
+}
+ 
+.historia-title {
+    font-size: 4.0rem;
+    font-family: 'Bookman Old Style';
+    margin-left: 25px;
+}
+ 
+.historia-content {
+    font-size: 1.0rem;
+    font-family: 'Tahoma';
+    text-align: justify;
+    margin-left: 60px;
+}
+ 
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+ 
+.video-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: url('../css/sky01.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ 
+.videodemo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+ 
+.video-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.valtit{
+    font-size: 4rem;
+    font-family: 'Bookman Old Style';
+    padding-top: 50px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
